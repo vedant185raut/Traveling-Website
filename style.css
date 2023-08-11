@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bree+Serif&family=Edu+NSW+ACT+Foundation:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding: 12px;
+    color: white;
+
+
+}
+
+.Ulist img {
+    height: 88px;
+    width: 93px;
+
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    /* height: 75px; */
+    height: 110px;
+    
+
+}
+.navbar {
+    display: block;
+    top: 0;
+    width: 100%;
+  }
+/* 2 ############################################ */
+
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    margin-bottom: 0;
+    
+
+}
+.nav-cmain{
+    margin-left: 54vh;
+    font-size: large;
+
+}
+.nav-cmains{
+    background-color: white;
+    margin: 0;
+    padding-top: 0;
+}
+.nav-csearch{
+    margin-left: 50vh;
+
+}
+.nav-c{
+    padding-top: 8px;
+    margin-top: 0;
+    margin: 0px 8px;
+    color: rgba(0, 0, 0, 0.921);
+    text-shadow: 4px 2px 10px red;
+    font-weight: 20px;
+    font-size: 16px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+input {
+    width: 75vh;
+    height: 46px;
+    border: none;
+    outline: none;
+    
+}
+.dmore{
+   align-items: 2px;
+}
+.item1{
+    margin: 2px 10px;
+}
+.searchbar{
+    padding: 1px 2px;
+   
+}
+
+/* ############################################### */
+
+.menu {
+    margin-left: auto;
+    margin-right: 25px;
+
+}
+.foot{
+    margin-top: 100vh;
+    background-color: rgba(0, 0, 0, 0.942);
+    
+
+}
+.footh{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    height: 3vh;
+}
+
+.menu img {
+
+    height: 22px;
+    width: 18px;
+    align-items: center;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 38px;
+    margin-left: 48vh;
+}
+
+.no-outline:focus {
+    outline: none;
+  }
+
+.searchbar .item {
+    padding: 12px;
+}
+
+.menubar {
+    border: 1px solid rgb(94, 86, 86);
+    border-radius: 20px;
+    padding: 4px 14px;
+
+}
+
+.pipe {
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+}
+
+.main-container{
+    height: 120vh;
+}
+
+.main-tour{
+    background: url(https://img.veenaworld.com/vw-assets/images/festive-season/pattern-1.svg) repeat,#fff;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.diwali_background{
+    display: flex;
+}
+.diwali_image1{
+    background-size: cover;
+    background-image: url(https://img.veenaworld.com/vw-assets/images/festive-season/header-decoration.svg);
+    height: 150px;
+    width: 52vw;
+}
+.diwali_image2{
+    background-size: cover;
+    background-image: url(https://img.veenaworld.com/vw-assets/images/festive-season/header-decoration.svg);
+    height: 150px;
+    width: 48vw;
+    transform: scaleX(-1);
+}
+.tourLink{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto; 
+    margin: 30px 0px;
+}
+.tour{
+    display: flex;
+    margin: 0px 20px;
+    height: 300px;
+    width: 170px;
+    background-color: #eddada;
+    border-radius: 30px;
+}
+.p-center{
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 550;
+    color: #212121;
+    text-align: center;
+    font-family: Muli,sans-serif;
+}
+.pimage{
+    display: inline-flex;
+    background: url(https://img.veenaworld.com/vw-assets/images/homepage/header-bottom.svg) no-repeat center bottom;
+    padding-bottom: 15px;
+}
+
+.rajasthan{
+    background-image: url(/rajasthan.webp);
+    background-position: center;
+}
+.kerala{
+    background-image: url(/kerla.webp);
+    background-position: center;
+}
+.europe{
+    background-image: url(/europe.webp);
+    background-position: center;
+}
+.jammuandkashmir{
+    background-image: url(/jammu.webp);
+    background-position: center;
+}
+.andamanandnicobar{
+    background-image: url(/andaman.webp);
+    background-position: center;
+}
+.himachalpradesh{
+    background-image: url(/himachal.webp);
+    background-position: center;
+}
+
+.tour-content{
+    color:aliceblue;
+    height: 300px;
+    width: 170px;
+    background: linear-gradient(180deg,rgba(0,0,0,0) 0%,#000000 100%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 5px 0px 0px 0px;
+    font-family: Muli,sans-serif;
+}
+.bottom-boarder{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.788);
+    width: 100%;
+    padding: 3px 0px;
+}
+
+
+#myCarousel li {
+    padding: 7px;
+    color: white;
+}
+
+
+
+
+
+
+
+.more-content{
+    /* height: 80vh; */
+    background: url(https://img.veenaworld.com/vw-assets/images/festive-season/pattern-2.svg) repeat,#fff;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-three{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.inclusive-image img{
+    padding-top: 20px;
+    height: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-line p{
+    margin-top: 12px;
+    color: #29499ae6;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.inclusive-text {
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 14px;
+    color: rgba(38, 38, 38, 0.74);
+    text-align: center;
+}
+
+.color{
+    margin: 30px 40px;
+    height: 220px;
+    width: 300px;
+    /* background-color: antiquewhite; */
+}
+
